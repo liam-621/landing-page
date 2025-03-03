@@ -67,4 +67,12 @@ ul {
     flex: 0.5;
 }
 
+.section-2 {
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 300px;
+    height: 500px;
+}
+
 
