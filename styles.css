@@ -1,5 +1,6 @@
 body {
     font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
 }
 
 a {
@@ -10,15 +11,20 @@ a {
 
 ul {
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 .logo {
     font-size: 24px;
     color: #F9FAF8;
+    font-weight: 900;
 }
 
 .section-1 {
     background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 
 .intro-header {
@@ -30,4 +36,21 @@ ul {
 .intro-text {
     color: #E5E7EB;
     font-size: 18px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 20px;
+}
+
+.links {
+    display: flex;
+    gap: 20px;
+}
+
+.container-intro-left {
+    display: flex;
+    flex-direction: column;
 }
