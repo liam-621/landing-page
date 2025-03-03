@@ -25,24 +25,26 @@ ul {
     background-color: #1F2937;
     display: flex;
     flex-direction: column;
+    padding: 0px 300px;
 }
 
 .intro-header {
     font-size: 48px;
     font-weight: 900;
     color: #F9FAF8;
+    margin: 0;
 }
 
 .intro-text {
     color: #E5E7EB;
     font-size: 18px;
+    margin: 0;
 }
 
 .header {
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding: 0px 20px;
 }
 
 .links {
@@ -53,4 +55,5 @@ ul {
 .container-intro-left {
     display: flex;
     flex-direction: column;
+    margin-top: 100px;
 }
